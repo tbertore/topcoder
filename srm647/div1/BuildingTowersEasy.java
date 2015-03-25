@@ -1,6 +1,5 @@
 import java.util.*;
 public class BuildingTowersEasy {
-	private static final int MAX_BLDG_HEIGHT = 100000 - 1;
 	public int maxHeight(int N, int[] x, int[] t) {
 		int[][] dp = new int[x.length + 1][N];
 		for (int idx = 0; idx < N; idx++) {
